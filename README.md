@@ -1,7 +1,8 @@
 #中文
+
 ##更新内容
 
-增加了新浪微薄和 Dribbble 连接的支持
+增加了新浪微博和 Dribbble 连接的支持
 
 [演示](http://imallen.com)
 
@@ -9,7 +10,7 @@
 
 编辑你的 `_config.yml`，加入以下两行
 
-    weibo_user: a11en # 自定义网址中用户名部分，不是昵称
+    weibo_user: a11en # 注：新浪微博自定义网址中用户名部分或数字 ID，不是昵称
     dribbble_user: allenhsu
 
 ##安装方法
