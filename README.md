@@ -1,28 +1,30 @@
-#Greyshade
+#Updates
 
-Greyshade is a minimal, responsive theme for Octopress.
-Based on [Slash](https://github.com/tommy351/Octopress-Theme-Slash)  
+I've added support for Weibo and Dribbble in social links part.
 
-[Demo](http://shashankmehta.in/archive/2012/greyshade.html)
+[Demo](http://imallen.com)
 
-![mobile view](https://dl.dropbox.com/u/6396581/greyshade/1.png)
+#Configuration
 
-![Desktop view](https://dl.dropbox.com/u/6396581/greyshade/2.png)
+Just add following two value in your `_config.yml`
 
-##Conditions 
-
-The only condition to use this theme for your octopress blog is that you have to set a different highlight color than the ones mentioned [here](https://github.com/shashankmehta/greyshade/wiki/Sites-using-Greyshade). When you have chosen a highlight color, please add it to the [wiki](https://github.com/shashankmehta/greyshade/wiki/Sites-using-Greyshade) so that no one else uses it.
-
-Highlight color: This color is used on a:hover, blockquotes etc. I'll be using it in more places so that blogs with different highlight colors look slightly different and maintain a bit of their uniqueness. 
+    weibo_user: a11en # Your weibo id (NOT DISPLAY NICKNAME)
+    dribbble_user: allenhsu
 
 ##Install
 
 Type the code below in terminal.
 
-	$ git clone git@github.com:shashankmehta/greyshade.git .themes/greyshade
+	$ git clone git@github.com:allenhsu/greyshade.git .themes/greyshade
 	$ echo "\$greyshade: color;" >> sass/custom/_colors.scss //Substitue 'color' with your highlight color
 	$ rake "install[greyshade]"
 	$ rake generate
+
+#Greyshade
+
+[Greyshade](https://github.com/shashankmehta/greyshade) is a minimal, responsive theme for Octopress. From [Shashank Mehta](https://github.com/shashankmehta), based on [Slash](https://github.com/tommy351/Octopress-Theme-Slash)  
+
+[Demo](http://shashankmehta.in/archive/2012/greyshade.html)
   
 ##License
 
