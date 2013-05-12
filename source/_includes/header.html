@@ -9,6 +9,9 @@
 <nav id="main-nav">{% include navigation.html %}</nav>
 <nav id="sub-nav">
 	<div class="social">
+		{% if site.weibo_user %}
+		<a class="weibo" href="http://www.weibo.com/{{ site.weibo_user }}" title="Weibo">Weibo</a>
+		{% endif %}
 		{% if site.facebook_user %}
 		<a class="facebook" href="http://www.facebook.com/{{ site.facebook_user }}" title="Facebook">Facebook</a>
 		{% endif %}
@@ -20,6 +23,9 @@
 		{% endif %}
 		{% if site.github_user %}
 		<a class="github" href="https://github.com/{{ site.github_user }}" title="GitHub">GitHub</a>
+		{% endif %}
+		{% if site.dribbble_user %}
+		<a class="dribbble" href="http://www.dribbble.com/{{ site.dribbble_user }}" title="Dribbble">Dribbble</a>
 		{% endif %}
 		{% if site.linkedin_user %}
 		<a class="linkedin" href="http://www.linkedin.com/in/{{ site.linkedin_user }}">LinkedIn</a>

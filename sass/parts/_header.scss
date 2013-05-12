@@ -313,12 +313,27 @@ $header-height: 30px;
 			@include border-radius(50%);
 			@include inline-block;
 			text-indent: -9999px;
-			margin-right: 15px;
+			margin-right: 5px;
+			margin-bottom: 15px;
 			opacity: 0.5;
 			@include square(28px);
 			@include transition(0.3s);
 			&:hover{
 				opacity: 1;
+			}
+			&.weibo{
+				background: image-url('social/weibo.png') center no-repeat #e32529;
+				border: 1px solid #e32529;
+				&:hover{
+					border: 1px solid darken(#e32529, 10%);
+				}
+			}
+			&.dribbble{
+				background: image-url('social/dribbble.png') center no-repeat #c5376d;
+				border: 1px solid #c5376d;
+				&:hover{
+					border: 1px solid darken(#c5376d, 10%);
+				}
 			}
 			&.facebook{
 				background: image-url('social/facebook.png') center no-repeat #3B5998;
